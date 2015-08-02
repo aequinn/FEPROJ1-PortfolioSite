@@ -1,0 +1,58 @@
+/*My Personal Site Specific Styles*/
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+  /*TO DO
+  Attempt to make text more responsive
+  font-size: 62.5%;*/
+}
+h1, h2, h3,h4 {
+	color: #747704;
+	margin: 20px 0 -20px 0;
+	font-weight: 300;
+}
+/*header styles*/
+.logo {
+	margin: 1.5em 0 1em 1em;
+}
+.name {
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-top: 25px;
+}
+.title {
+	text-transform: uppercase;
+
+}
+/*Hero Styles*/
+.top-border {
+	border-top: 2px solid #bcbbbb;
+	padding-top: 15px;
+}
+.hero {
+	margin: -10px auto;
+}
+
+/*Feature Styles*/
+.feature {
+	margin: 0 10px;
+	color: #bcbbbb;
+	font-size: 30px;
+}
+.feature-img {
+	width: 100%;
+	height: 100%;
+}
+
+.feature-title {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+}
+
+/*TO DO
+Add Media Query for Responsive header, realign Name & title
+Add to Media Query for responsive content, move hero, make Featured work more prominent*/
