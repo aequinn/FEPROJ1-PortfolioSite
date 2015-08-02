@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/site.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet'>
+
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/bootstrap.js"></script>
 </head>
 <body>
   <div class="container">
@@ -37,20 +40,20 @@
       </section>
       <section class="row">
         <div class="col-sm-4">
-          <div class="feature-left">
+          <div class="feature-left" data-toggle="modal" data-target="#appifyModal">
             <div><img class="img-responsive" alt="Appify screenshot" src="http://lorempixel.com/370/200"></div>
             <h3 class="feature-title">APPIFY</h3>
             <p>A shrot description of project. Just a sentence or two, but not much more.</p>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-toggle="modal" data-target="#sunflowerModal">
           <div class="feature-center">
             <div><img class="img-responsive" alt="Sunflower screenshot" src="http://lorempixel.com/370/200"></div>
             <h3 class="feature-title">SUNFLOWER</h3>
             <p>A shrot description of project. Just a sentence or two, but not much more.</p>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-toggle="modal" data-target="#bokehModal">
           <div class="feature-right">
             <div><img class="img-responsive" alt="Bokeh screenshot" src="http://lorempixel.com/370/200"></div>
             <h3 class="feature-title">BOKEH</h3>
@@ -61,7 +64,58 @@
     </main>
   </div>
   <!--TO DO
-  Add modal for each featured section with gallery of images and description, not illustrated in wireframe provided
+  Add gallery of images and description, not illustrated in wireframe provided
 -->
+<!-- Appify Modal -->
+<div class="modal fade" id="appifyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Appify Project</h4>
+      </div>
+      <div class="modal-body">
+        <p>This project was to take a simple idea and create an app out of it.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Sunflower Modal -->
+<div class="modal fade" id="sunflowerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sunflower Project</h4>
+      </div>
+      <div class="modal-body">
+        <p>This project was to take a site, create a theme that reminded you of sunflowers and apply the theme to a site of my choice.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Bokeh Modal -->
+<div class="modal fade" id="bokehModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Bokeh Project</h4>
+      </div>
+      <div class="modal-body">
+        <p>This project was to make a new project with many facets to it, utilizing javascript.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
