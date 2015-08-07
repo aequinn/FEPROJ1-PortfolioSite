@@ -34,16 +34,6 @@ h4 {
 	text-transform: uppercase;
 }
 
-/*Hero Styles*/
-.top-border {
-	border-top: 2px solid #bcbbbb;
-	padding: 15px 0 0;
-}
-
-.hero {
-	margin: -10px auto;
-}
-
 /*Feature Styles*/
 .feature {
 	margin: 10px 10px 5px;
